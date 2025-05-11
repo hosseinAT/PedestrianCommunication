@@ -14,10 +14,6 @@ Das System erkennt bis zu vier Fußgänger, verfolgt deren Position mithilfe ein
 * [Softwareanforderungen](#softwareanforderungen)
 * [Installation](#installation)
 * [Verwendung](#verwendung)
-* [Konfiguration](#konfiguration)
-* [Mitwirken](#mitwirken)
-* [Lizenz](#lizenz)
-* [Kontakt](#kontakt)
 
 ---
 
