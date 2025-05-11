@@ -1,0 +1,14 @@
+camera:
+  resolution: [640, 480]
+  fps: 30
+  depth_threshold: 5.0  # Max. Entfernung für Fußgänger (in Metern)
+detection:
+  model: "yolov8n.pt"  # Vortrainiertes YOLOv8-Modell
+  confidence: 0.75      # Mindestkonfidenz
+display:
+  window_size: [600, 400]
+  eye_radius: 60
+  pupil_radius: 35
+  eye_color: [255, 255, 255]
+  signal_green: [0, 255, 0]
+  signal_red: [255, 0, 0]
