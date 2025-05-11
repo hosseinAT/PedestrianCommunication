@@ -1,0 +1,160 @@
+PS C:\Users\hosse\Downloads\PedestrianCommunication\PedestrianCommunication\src>
+PS C:\Users\hosse\Downloads\PedestrianCommunication\PedestrianCommunication\src> python main.py
+2025-05-11 08:34:21.374 | INFO     | camera.realsense_camera:__init__:35 - Camera initialized.
+2025-05-11 08:34:21.488 | INFO     | detection.pedestrian_detector:__init__:24 - YOLOv8 model yolov8n.pt loaded.
+2025-05-11 08:34:21.518 | INFO     | display.eye_animation:__init__:30 - Eye display initialized.
+2025-05-11 08:34:21.980 | INFO     | __main__:main:381 - All components initialized.
+2025-05-11 08:34:22.574 | INFO     | camera.realsense_camera:check_camera_status:45 - Camera found: Intel RealSense D456
+2025-05-11 08:34:22.981 | INFO     | camera.realsense_camera:start:57 - Camera stream started.
+2025-05-11 08:34:23.776 | DEBUG    | camera.realsense_camera:get_frames:74 - Frames received: Color image (480, 640, 3), Depth image (480, 640)
+2025-05-11 08:34:25.283 | DEBUG    | detection.pedestrian_detector:detect:49 - 1 YOLOv8 detections.
+2025-05-11 08:34:25.285 | DEBUG    | detection.pedestrian_detector:detect:63 - Distance for BBox [169, 223, 412, 479]: 1.44 m
+2025-05-11 08:34:25.286 | DEBUG    | tracker.kalman_filter:__init__:49 - Tracker 0 initialized with bbox [     169.91       223.3      412.37      479.76]
+2025-05-11 08:34:25.287 | DEBUG    | detection.pedestrian_detector:detect:107 - 1 pedestrians detected after depth filtering.
+2025-05-11 08:34:25.291 | DEBUG    | display.eye_animation:show:43 - Background color: Gray
+2025-05-11 08:34:25.292 | DEBUG    | display.eye_animation:show:47 - Pupil color: Green
+2025-05-11 08:34:25.293 | DEBUG    | display.eye_animation:show:61 - Closest pedestrian at x=290, y=351, distance=1.44 m
+2025-05-11 08:34:25.294 | DEBUG    | utils.coordinate_utils:pixel_to_eye_space:39 - Pixel (290, 351) -> Pupil (133.50, 210.20), Distance=1.44m, Scale=1.00
+2025-05-11 08:34:25.294 | DEBUG    | utils.coordinate_utils:pixel_to_eye_space:39 - Pixel (290, 351) -> Pupil (433.50, 210.20), Distance=1.44m, Scale=1.00
+2025-05-11 08:34:25.295 | DEBUG    | display.eye_animation:show:70 - Pupil positions: Left=(133.5, 210.2), Right=(433.5, 210.2)
+2025-05-11 08:34:25.297 | DEBUG    | display.eye_animation:show:91 - Eye display updated.
+2025-05-11 08:34:26.096 | DEBUG    | camera.realsense_camera:get_frames:74 - Frames received: Color image (480, 640, 3), Depth image (480, 640)
+2025-05-11 08:34:26.153 | DEBUG    | detection.pedestrian_detector:detect:49 - 1 YOLOv8 detections.
+2025-05-11 08:34:26.155 | DEBUG    | detection.pedestrian_detector:detect:63 - Distance for BBox [169, 224, 413, 479]: 1.43 m
+2025-05-11 08:34:26.156 | DEBUG    | tracker.kalman_filter:update:56 - Tracker 0 updated with bbox [     169.92      224.32      413.18      479.74]
+2025-05-11 08:34:26.157 | DEBUG    | detection.pedestrian_detector:detect:107 - 1 pedestrians detected after depth filtering.
+2025-05-11 08:34:26.160 | DEBUG    | display.eye_animation:show:43 - Background color: Gray
+2025-05-11 08:34:26.161 | DEBUG    | display.eye_animation:show:47 - Pupil color: Green
+2025-05-11 08:34:26.162 | DEBUG    | display.eye_animation:show:61 - Closest pedestrian at x=291, y=351, distance=1.43 m
+2025-05-11 08:34:26.163 | DEBUG    | utils.coordinate_utils:pixel_to_eye_space:39 - Pixel (291, 351) -> Pupil (133.65, 210.20), Distance=1.43m, Scale=1.00
+2025-05-11 08:34:26.163 | DEBUG    | utils.coordinate_utils:pixel_to_eye_space:39 - Pixel (291, 351) -> Pupil (433.65, 210.20), Distance=1.43m, Scale=1.00
+2025-05-11 08:34:26.164 | DEBUG    | display.eye_animation:show:70 - Pupil positions: Left=(133.65, 210.2), Right=(433.65, 210.2)
+2025-05-11 08:34:26.165 | DEBUG    | display.eye_animation:show:91 - Eye display updated.
+2025-05-11 08:34:26.523 | DEBUG    | camera.realsense_camera:get_frames:74 - Frames received: Color image (480, 640, 3), Depth image (480, 640)
+2025-05-11 08:34:26.579 | DEBUG    | detection.pedestrian_detector:detect:49 - 1 YOLOv8 detections.
+2025-05-11 08:34:26.580 | DEBUG    | detection.pedestrian_detector:detect:63 - Distance for BBox [170, 224, 412, 479]: 1.42 m
+2025-05-11 08:34:26.582 | DEBUG    | tracker.kalman_filter:update:56 - Tracker 0 updated with bbox [     170.16      224.34       412.8      479.72]
+2025-05-11 08:34:26.583 | DEBUG    | detection.pedestrian_detector:detect:107 - 1 pedestrians detected after depth filtering.
+2025-05-11 08:34:26.585 | DEBUG    | display.eye_animation:show:43 - Background color: Gray
+2025-05-11 08:34:26.587 | DEBUG    | display.eye_animation:show:47 - Pupil color: Green
+2025-05-11 08:34:26.588 | DEBUG    | display.eye_animation:show:61 - Closest pedestrian at x=291, y=351, distance=1.42 m
+2025-05-11 08:34:26.589 | DEBUG    | utils.coordinate_utils:pixel_to_eye_space:39 - Pixel (291, 351) -> Pupil (133.65, 210.20), Distance=1.42m, Scale=1.00
+2025-05-11 08:34:26.590 | DEBUG    | utils.coordinate_utils:pixel_to_eye_space:39 - Pixel (291, 351) -> Pupil (433.65, 210.20), Distance=1.42m, Scale=1.00
+2025-05-11 08:34:26.590 | DEBUG    | display.eye_animation:show:70 - Pupil positions: Left=(133.65, 210.2), Right=(433.65, 210.2)
+2025-05-11 08:34:26.591 | DEBUG    | display.eye_animation:show:91 - Eye display updated.
+2025-05-11 08:34:26.964 | DEBUG    | camera.realsense_camera:get_frames:74 - Frames received: Color image (480, 640, 3), Depth image (480, 640)
+2025-05-11 08:34:27.023 | DEBUG    | detection.pedestrian_detector:detect:49 - 1 YOLOv8 detections.
+2025-05-11 08:34:27.024 | DEBUG    | detection.pedestrian_detector:detect:63 - Distance for BBox [170, 224, 413, 479]: 3.14 m
+2025-05-11 08:34:27.025 | DEBUG    | tracker.kalman_filter:update:56 - Tracker 0 updated with bbox [     170.18      224.41      413.11      479.74]
+2025-05-11 08:34:27.026 | DEBUG    | detection.pedestrian_detector:detect:107 - 1 pedestrians detected after depth filtering.
+2025-05-11 08:34:27.029 | DEBUG    | display.eye_animation:show:43 - Background color: Gray
+2025-05-11 08:34:27.030 | DEBUG    | display.eye_animation:show:47 - Pupil color: Green
+2025-05-11 08:34:27.031 | DEBUG    | display.eye_animation:show:61 - Closest pedestrian at x=291, y=351, distance=3.14 m
+2025-05-11 08:34:27.032 | DEBUG    | utils.coordinate_utils:pixel_to_eye_space:39 - Pixel (291, 351) -> Pupil (139.59, 206.50), Distance=3.14m, Scale=0.64
+2025-05-11 08:34:27.033 | DEBUG    | utils.coordinate_utils:pixel_to_eye_space:39 - Pixel (291, 351) -> Pupil (439.59, 206.50), Distance=3.14m, Scale=0.64
+2025-05-11 08:34:27.034 | DEBUG    | display.eye_animation:show:70 - Pupil positions: Left=(139.58814053553445, 206.4954719594831), Right=(439.5881405355344, 206.4954719594831)
+2025-05-11 08:34:27.035 | DEBUG    | display.eye_animation:show:91 - Eye display updated.
+2025-05-11 08:34:27.408 | DEBUG    | camera.realsense_camera:get_frames:74 - Frames received: Color image (480, 640, 3), Depth image (480, 640)
+2025-05-11 08:34:27.484 | DEBUG    | detection.pedestrian_detector:detect:49 - 1 YOLOv8 detections.
+2025-05-11 08:34:27.486 | DEBUG    | detection.pedestrian_detector:detect:63 - Distance for BBox [169, 224, 413, 479]: 1.26 m
+2025-05-11 08:34:27.487 | DEBUG    | tracker.kalman_filter:update:56 - Tracker 0 updated with bbox [     169.64      224.36      413.25      479.73]
+2025-05-11 08:34:27.490 | DEBUG    | detection.pedestrian_detector:detect:107 - 1 pedestrians detected after depth filtering.
+2025-05-11 08:34:27.493 | DEBUG    | display.eye_animation:show:43 - Background color: Gray
+2025-05-11 08:34:27.493 | DEBUG    | display.eye_animation:show:47 - Pupil color: Green
+2025-05-11 08:34:27.494 | DEBUG    | display.eye_animation:show:61 - Closest pedestrian at x=291, y=351, distance=1.26 m
+2025-05-11 08:34:27.496 | DEBUG    | utils.coordinate_utils:pixel_to_eye_space:39 - Pixel (291, 351) -> Pupil (133.65, 210.20), Distance=1.26m, Scale=1.00
+2025-05-11 08:34:27.497 | DEBUG    | utils.coordinate_utils:pixel_to_eye_space:39 - Pixel (291, 351) -> Pupil (433.65, 210.20), Distance=1.26m, Scale=1.00
+2025-05-11 08:34:27.498 | DEBUG    | display.eye_animation:show:70 - Pupil positions: Left=(133.65, 210.2), Right=(433.65, 210.2)
+2025-05-11 08:34:27.499 | DEBUG    | display.eye_animation:show:91 - Eye display updated.
+2025-05-11 08:34:28.017 | DEBUG    | camera.realsense_camera:get_frames:74 - Frames received: Color image (480, 640, 3), Depth image (480, 640)
+2025-05-11 08:34:28.087 | DEBUG    | detection.pedestrian_detector:detect:49 - 1 YOLOv8 detections.
+2025-05-11 08:34:28.088 | DEBUG    | detection.pedestrian_detector:detect:63 - Distance for BBox [169, 224, 412, 479]: 16.54 m
+2025-05-11 08:34:28.090 | DEBUG    | detection.pedestrian_detector:detect:65 - Pedestrian at 16.54 m ignored (max: 5.0 m).
+2025-05-11 08:34:28.090 | DEBUG    | detection.pedestrian_detector:detect:107 - 0 pedestrians detected after depth filtering.
+2025-05-11 08:34:28.094 | DEBUG    | display.eye_animation:show:43 - Background color: Gray
+2025-05-11 08:34:28.095 | DEBUG    | display.eye_animation:show:47 - Pupil color: Red
+2025-05-11 08:34:28.095 | DEBUG    | display.eye_animation:show:91 - Eye display updated.
+2025-05-11 08:34:28.490 | DEBUG    | camera.realsense_camera:get_frames:74 - Frames received: Color image (480, 640, 3), Depth image (480, 640)
+2025-05-11 08:34:28.559 | DEBUG    | detection.pedestrian_detector:detect:49 - 1 YOLOv8 detections.
+2025-05-11 08:34:28.560 | DEBUG    | detection.pedestrian_detector:detect:63 - Distance for BBox [170, 224, 413, 479]: 1.25 m
+2025-05-11 08:34:28.562 | DEBUG    | tracker.kalman_filter:__init__:49 - Tracker 1 initialized with bbox [     170.24      224.42      413.18      479.74]
+2025-05-11 08:34:28.563 | DEBUG    | detection.pedestrian_detector:detect:107 - 1 pedestrians detected after depth filtering.
+2025-05-11 08:34:28.565 | DEBUG    | display.eye_animation:show:43 - Background color: Gray
+2025-05-11 08:34:28.567 | DEBUG    | display.eye_animation:show:47 - Pupil color: Green
+2025-05-11 08:34:28.568 | DEBUG    | display.eye_animation:show:61 - Closest pedestrian at x=291, y=351, distance=1.25 m
+2025-05-11 08:34:28.570 | DEBUG    | utils.coordinate_utils:pixel_to_eye_space:39 - Pixel (291, 351) -> Pupil (133.65, 210.20), Distance=1.25m, Scale=1.00
+2025-05-11 08:34:28.570 | DEBUG    | utils.coordinate_utils:pixel_to_eye_space:39 - Pixel (291, 351) -> Pupil (433.65, 210.20), Distance=1.25m, Scale=1.00
+2025-05-11 08:34:28.571 | DEBUG    | display.eye_animation:show:70 - Pupil positions: Left=(133.65, 210.2), Right=(433.65, 210.2)
+2025-05-11 08:34:28.572 | DEBUG    | display.eye_animation:show:91 - Eye display updated.
+2025-05-11 08:34:29.062 | DEBUG    | camera.realsense_camera:get_frames:74 - Frames received: Color image (480, 640, 3), Depth image (480, 640)
+2025-05-11 08:34:29.125 | DEBUG    | detection.pedestrian_detector:detect:49 - 1 YOLOv8 detections.
+2025-05-11 08:34:29.127 | DEBUG    | detection.pedestrian_detector:detect:63 - Distance for BBox [169, 224, 412, 479]: 1.47 m
+2025-05-11 08:34:29.127 | DEBUG    | tracker.kalman_filter:update:56 - Tracker 1 updated with bbox [     169.81      224.48      412.74      479.72]
+2025-05-11 08:34:29.129 | DEBUG    | detection.pedestrian_detector:detect:107 - 1 pedestrians detected after depth filtering.
+2025-05-11 08:34:29.132 | DEBUG    | display.eye_animation:show:43 - Background color: Gray
+2025-05-11 08:34:29.133 | DEBUG    | display.eye_animation:show:47 - Pupil color: Green
+2025-05-11 08:34:29.134 | DEBUG    | display.eye_animation:show:61 - Closest pedestrian at x=290, y=351, distance=1.47 m
+2025-05-11 08:34:29.134 | DEBUG    | utils.coordinate_utils:pixel_to_eye_space:39 - Pixel (290, 351) -> Pupil (133.50, 210.20), Distance=1.47m, Scale=1.00
+2025-05-11 08:34:29.135 | DEBUG    | utils.coordinate_utils:pixel_to_eye_space:39 - Pixel (290, 351) -> Pupil (433.50, 210.20), Distance=1.47m, Scale=1.00
+2025-05-11 08:34:29.136 | DEBUG    | display.eye_animation:show:70 - Pupil positions: Left=(133.5, 210.2), Right=(433.5, 210.2)
+2025-05-11 08:34:29.136 | DEBUG    | display.eye_animation:show:91 - Eye display updated.
+2025-05-11 08:34:29.610 | DEBUG    | camera.realsense_camera:get_frames:74 - Frames received: Color image (480, 640, 3), Depth image (480, 640)
+2025-05-11 08:34:29.689 | DEBUG    | detection.pedestrian_detector:detect:49 - 1 YOLOv8 detections.
+2025-05-11 08:34:29.690 | DEBUG    | detection.pedestrian_detector:detect:63 - Distance for BBox [169, 223, 412, 479]: 65.53 m
+2025-05-11 08:34:29.691 | DEBUG    | detection.pedestrian_detector:detect:65 - Pedestrian at 65.53 m ignored (max: 5.0 m).
+2025-05-11 08:34:29.692 | DEBUG    | detection.pedestrian_detector:detect:107 - 0 pedestrians detected after depth filtering.
+2025-05-11 08:34:29.694 | DEBUG    | display.eye_animation:show:43 - Background color: Gray
+2025-05-11 08:34:29.695 | DEBUG    | display.eye_animation:show:47 - Pupil color: Red
+2025-05-11 08:34:29.697 | DEBUG    | display.eye_animation:show:91 - Eye display updated.
+2025-05-11 08:34:30.122 | DEBUG    | camera.realsense_camera:get_frames:74 - Frames received: Color image (480, 640, 3), Depth image (480, 640)
+2025-05-11 08:34:30.185 | DEBUG    | detection.pedestrian_detector:detect:49 - 1 YOLOv8 detections.
+2025-05-11 08:34:30.187 | DEBUG    | detection.pedestrian_detector:detect:63 - Distance for BBox [170, 223, 412, 479]: 1.37 m
+2025-05-11 08:34:30.187 | DEBUG    | tracker.kalman_filter:__init__:49 - Tracker 2 initialized with bbox [     170.13      223.89      412.82      479.49]
+2025-05-11 08:34:30.188 | DEBUG    | detection.pedestrian_detector:detect:107 - 1 pedestrians detected after depth filtering.
+2025-05-11 08:34:30.192 | DEBUG    | display.eye_animation:show:43 - Background color: Gray
+2025-05-11 08:34:30.192 | DEBUG    | display.eye_animation:show:47 - Pupil color: Green
+2025-05-11 08:34:30.193 | DEBUG    | display.eye_animation:show:61 - Closest pedestrian at x=291, y=351, distance=1.37 m
+2025-05-11 08:34:30.194 | DEBUG    | utils.coordinate_utils:pixel_to_eye_space:39 - Pixel (291, 351) -> Pupil (133.65, 210.20), Distance=1.37m, Scale=1.00
+2025-05-11 08:34:30.196 | DEBUG    | utils.coordinate_utils:pixel_to_eye_space:39 - Pixel (291, 351) -> Pupil (433.65, 210.20), Distance=1.37m, Scale=1.00
+2025-05-11 08:34:30.197 | DEBUG    | display.eye_animation:show:70 - Pupil positions: Left=(133.65, 210.2), Right=(433.65, 210.2)
+2025-05-11 08:34:30.198 | DEBUG    | display.eye_animation:show:91 - Eye display updated.
+2025-05-11 08:34:30.607 | DEBUG    | camera.realsense_camera:get_frames:74 - Frames received: Color image (480, 640, 3), Depth image (480, 640)
+2025-05-11 08:34:30.673 | DEBUG    | detection.pedestrian_detector:detect:49 - 1 YOLOv8 detections.
+2025-05-11 08:34:30.675 | DEBUG    | detection.pedestrian_detector:detect:63 - Distance for BBox [169, 224, 412, 479]: 65.53 m
+2025-05-11 08:34:30.677 | DEBUG    | detection.pedestrian_detector:detect:65 - Pedestrian at 65.53 m ignored (max: 5.0 m).
+2025-05-11 08:34:30.678 | DEBUG    | detection.pedestrian_detector:detect:107 - 0 pedestrians detected after depth filtering.
+2025-05-11 08:34:30.680 | DEBUG    | display.eye_animation:show:43 - Background color: Gray
+2025-05-11 08:34:30.680 | DEBUG    | display.eye_animation:show:47 - Pupil color: Red
+2025-05-11 08:34:30.682 | DEBUG    | display.eye_animation:show:91 - Eye display updated.
+2025-05-11 08:34:31.097 | DEBUG    | camera.realsense_camera:get_frames:74 - Frames received: Color image (480, 640, 3), Depth image (480, 640)
+2025-05-11 08:34:31.160 | DEBUG    | detection.pedestrian_detector:detect:49 - 1 YOLOv8 detections.
+2025-05-11 08:34:31.162 | DEBUG    | detection.pedestrian_detector:detect:63 - Distance for BBox [169, 224, 412, 479]: 1.27 m
+2025-05-11 08:34:31.163 | DEBUG    | tracker.kalman_filter:__init__:49 - Tracker 3 initialized with bbox [     169.91      224.39      412.94      479.74]
+2025-05-11 08:34:31.165 | DEBUG    | detection.pedestrian_detector:detect:107 - 1 pedestrians detected after depth filtering.
+2025-05-11 08:34:31.168 | DEBUG    | display.eye_animation:show:43 - Background color: Gray
+2025-05-11 08:34:31.169 | DEBUG    | display.eye_animation:show:47 - Pupil color: Green
+2025-05-11 08:34:31.169 | DEBUG    | display.eye_animation:show:61 - Closest pedestrian at x=290, y=351, distance=1.27 m
+2025-05-11 08:34:31.170 | DEBUG    | utils.coordinate_utils:pixel_to_eye_space:39 - Pixel (290, 351) -> Pupil (133.50, 210.20), Distance=1.27m, Scale=1.00
+2025-05-11 08:34:31.172 | DEBUG    | utils.coordinate_utils:pixel_to_eye_space:39 - Pixel (290, 351) -> Pupil (433.50, 210.20), Distance=1.27m, Scale=1.00
+2025-05-11 08:34:31.173 | DEBUG    | display.eye_animation:show:70 - Pupil positions: Left=(133.5, 210.2), Right=(433.5, 210.2)
+2025-05-11 08:34:31.173 | DEBUG    | display.eye_animation:show:91 - Eye display updated.
+2025-05-11 08:34:31.624 | DEBUG    | camera.realsense_camera:get_frames:74 - Frames received: Color image (480, 640, 3), Depth image (480, 640)
+2025-05-11 08:34:31.684 | DEBUG    | detection.pedestrian_detector:detect:49 - 1 YOLOv8 detections.
+2025-05-11 08:34:31.686 | DEBUG    | detection.pedestrian_detector:detect:63 - Distance for BBox [169, 224, 413, 479]: 7.55 m
+2025-05-11 08:34:31.687 | DEBUG    | detection.pedestrian_detector:detect:65 - Pedestrian at 7.55 m ignored (max: 5.0 m).
+2025-05-11 08:34:31.687 | DEBUG    | detection.pedestrian_detector:detect:107 - 0 pedestrians detected after depth filtering.
+2025-05-11 08:34:31.690 | DEBUG    | display.eye_animation:show:43 - Background color: Gray
+2025-05-11 08:34:31.691 | DEBUG    | display.eye_animation:show:47 - Pupil color: Red
+2025-05-11 08:34:31.691 | DEBUG    | display.eye_animation:show:91 - Eye display updated.
+2025-05-11 08:34:32.066 | DEBUG    | camera.realsense_camera:get_frames:74 - Frames received: Color image (480, 640, 3), Depth image (480, 640)
+2025-05-11 08:34:32.138 | DEBUG    | detection.pedestrian_detector:detect:49 - 1 YOLOv8 detections.
+2025-05-11 08:34:32.139 | DEBUG    | detection.pedestrian_detector:detect:63 - Distance for BBox [170, 224, 412, 479]: 1.22 m
+2025-05-11 08:34:32.141 | DEBUG    | tracker.kalman_filter:__init__:49 - Tracker 4 initialized with bbox [     170.56      224.53      412.74      479.74]
+2025-05-11 08:34:32.142 | DEBUG    | detection.pedestrian_detector:detect:107 - 1 pedestrians detected after depth filtering.
+2025-05-11 08:34:32.144 | DEBUG    | display.eye_animation:show:43 - Background color: Gray
+2025-05-11 08:34:32.145 | DEBUG    | display.eye_animation:show:47 - Pupil color: Green
+2025-05-11 08:34:32.147 | DEBUG    | display.eye_animation:show:61 - Closest pedestrian at x=291, y=351, distance=1.22 m
+2025-05-11 08:34:32.147 | DEBUG    | utils.coordinate_utils:pixel_to_eye_space:39 - Pixel (291, 351) -> Pupil (133.65, 210.20), Distance=1.22m, Scale=1.00
+2025-05-11 08:34:32.149 | DEBUG    | utils.coordinate_utils:pixel_to_eye_space:39 - Pixel (291, 351) -> Pupil (433.65, 210.20), Distance=1.22m, Scale=1.00
+2025-05-11 08:34:32.149 | DEBUG    | display.eye_animation:show:70 - Pupil positions: Left=(133.65, 210.2), Right=(433.65, 210.2)
+2025-05-11 08:34:32.150 | DEBUG    | display.eye_animation:show:91 - Eye display updated.
