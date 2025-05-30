@@ -205,6 +205,11 @@ display:
    - **Camera-Fenster**: Zeigt Kameraaufnahmen mit grünen Rahmen um Fußgänger und deren Entfernung (z. B. "Distance: 1.5m").
    - **Eyes-Fenster**: Animation von Augen, die sich zum nächstgelegenen Fußgänger bewegen und grün (Erkennung) oder rot (keine Erkennung) anzeigen.
    - Drücken Sie die Taste `q`, um das Programm zu beenden.
+  
+![Depth_Map](https://gist.github.com/user-attachments/assets/bcde25de-2335-4d61-b83e-18b5a53551c5)
+![Detection_Status](https://gist.github.com/user-attachments/assets/c9a9f238-e708-4390-aa4a-95c4d05da36f)
+![Pedestrian_Distances](https://gist.github.com/user-attachments/assets/3a00a55d-8763-4835-b500-9511e71d299e)
+![Pedestrian_Positions](https://gist.github.com/user-attachments/assets/9f7df0e9-ae65-4186-8fd7-54b781975ee2)
 
 ## Konfiguration
 
