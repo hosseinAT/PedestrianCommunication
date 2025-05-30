@@ -206,26 +206,26 @@ display:
    - **Eyes-Fenster**: Animation von Augen, die sich zum nächstgelegenen Fußgänger bewegen und grün (Erkennung) oder rot (keine Erkennung) anzeigen.
    - Drücken Sie die Taste `q`, um das Programm zu beenden.
    - **Depth_Map**
-  <img src="https://gist.github.com/user-attachments/assets/bcde25de-2335-4d61-b83e-18b5a53551c5.png" width="550" height="270" />
+  <img src="https://github.com/hosseinAT/PedestrianCommunication/blob/main/src/Depth_Map.png" width="550" height="270" />
    - **Detection_Status**
-  <img src="https://gist.github.com/user-attachments/assets/c9a9f238-e708-4390-aa4a-95c4d05da36f.png" width="550" height="270" />  
+  <img src="https://github.com/hosseinAT/PedestrianCommunication/blob/main/Detection_Status.png" width="550" height="270" />  
    - **Pedestrian_Distances**
-  <img src="https://gist.github.com/user-attachments/assets/3a00a55d-8763-4835-b500-9511e71d299e.png" width="550" height="270" />
+  <img src="(https://github.com/hosseinAT/PedestrianCommunication/blob/main/Pedestrian_Distances.png" width="550" height="270" />
    - **Pedestrian_Positions**
-  <img src="https://gist.github.com/user-attachments/assets/9f7df0e9-ae65-4186-8fd7-54b781975ee2.png" width="550" height="270" />
+  <img src="https://github.com/hosseinAT/PedestrianCommunication/blob/main/Pedestrian_Positions.png" width="550" height="270" />
 
 
   - **Depth_Map**
-  ![Depth Map](https://github.com/hosseinAT/PedestrianCommunication/blob/main/src/Depth_Map.png))
+  ![Depth Map](https://github.com/hosseinAT/PedestrianCommunication/blob/main/src/Depth_Map.png)
   
 - **Detection_Status**
-  ![Detection Status](https://gist.github.com/user-attachments/assets/c9a9f238-e708-4390-aa4a-95c4d05da36f)
+  ![Detection Status](https://github.com/hosseinAT/PedestrianCommunication/blob/main/Detection_Status.png)
   
 - **Pedestrian_Distances**
-  ![Pedestrian Distances](https://gist.github.com/user-attachments/assets/3a00a55d-8763-4835-b500-9511e71d299e)
+  ![Pedestrian Distances](https://github.com/hosseinAT/PedestrianCommunication/blob/main/Pedestrian_Distances.png)
   
 - **Pedestrian_Positions**
-  ![Pedestrian Positions](https://gist.github.com/user-attachments/assets/9f7df0e9-ae65-4186-8fd7-54b781975ee2)
+  ![Pedestrian Positions](https://github.com/hosseinAT/PedestrianCommunication/blob/main/Pedestrian_Positions.png)
 
 
 
