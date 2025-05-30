@@ -215,6 +215,20 @@ display:
   <img src="https://gist.github.com/user-attachments/assets/9f7df0e9-ae65-4186-8fd7-54b781975ee2.png" width="550" height="270" />
 
 
+  - **Depth_Map**
+  ![Depth Map](https://gist.github.com/user-attachments/assets/bcde25de-2335-4d61-b83e-18b5a53551c5)
+  
+- **Detection_Status**
+  ![Detection Status](https://gist.github.com/user-attachments/assets/c9a9f238-e708-4390-aa4a-95c4d05da36f)
+  
+- **Pedestrian_Distances**
+  ![Pedestrian Distances](https://gist.github.com/user-attachments/assets/3a00a55d-8763-4835-b500-9511e71d299e)
+  
+- **Pedestrian_Positions**
+  ![Pedestrian Positions](https://gist.github.com/user-attachments/assets/9f7df0e9-ae65-4186-8fd7-54b781975ee2)
+
+
+
 
 
 
