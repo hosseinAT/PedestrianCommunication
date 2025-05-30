@@ -211,7 +211,7 @@ display:
    - **Detection_Status**
   <img src="https://github.com/hosseinAT/PedestrianCommunication/blob/main/Detection_Status.png" />  
    - **Pedestrian_Distances**
-  <img src="(https://github.com/hosseinAT/PedestrianCommunication/blob/main/Pedestrian_Distances.png"  />
+  <img src="https://github.com/hosseinAT/PedestrianCommunication/blob/main/Pedestrian_Distances.png"  />
    - **Pedestrian_Positions**
   <img src="https://github.com/hosseinAT/PedestrianCommunication/blob/main/Pedestrian_Positions.png" />
 
