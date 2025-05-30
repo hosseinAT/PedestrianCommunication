@@ -209,7 +209,7 @@ display:
    - **Depth_Map**
   <img src="https://github.com/hosseinAT/PedestrianCommunication/blob/main/src/Depth_Map.png" width="550" height="270" />
    - **Detection_Status**
-  <img src="https://github.com/hosseinAT/PedestrianCommunication/blob/main/Pedestrian_Distances.png" width="550" height="270" />  
+  <img src="https://github.com/hosseinAT/PedestrianCommunication/blob/main/Detection_Status.png" width="550" height="270" />  
    - **Pedestrian_Distances**
   <img src="(https://github.com/hosseinAT/PedestrianCommunication/blob/main/Pedestrian_Distances.png" width="550" height="270" />
    - **Pedestrian_Positions**
