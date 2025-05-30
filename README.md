@@ -216,7 +216,7 @@ display:
 
 
   - **Depth_Map**
-  ![Depth Map](https://gist.github.com/user-attachments/assets/bcde25de-2335-4d61-b83e-18b5a53551c5)
+  ![Depth Map](https://github.com/hosseinAT/PedestrianCommunication/blob/main/src/Depth_Map.png))
   
 - **Detection_Status**
   ![Detection Status](https://gist.github.com/user-attachments/assets/c9a9f238-e708-4390-aa4a-95c4d05da36f)
