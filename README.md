@@ -207,13 +207,13 @@ display:
    - Drücken Sie die Taste `q`, um das Programm zu beenden.
      
    - **Depth_Map**
-  <img src="https://github.com/hosseinAT/PedestrianCommunication/blob/main/src/Depth_Map.png" width="550" height="270" />
+  <img src="https://github.com/hosseinAT/PedestrianCommunication/blob/main/src/Depth_Map.png" />
    - **Detection_Status**
-  <img src="https://github.com/hosseinAT/PedestrianCommunication/blob/main/Detection_Status.png" width="550" height="270" />  
+  <img src="https://github.com/hosseinAT/PedestrianCommunication/blob/main/Detection_Status.png" />  
    - **Pedestrian_Distances**
-  <img src="(https://github.com/hosseinAT/PedestrianCommunication/blob/main/Pedestrian_Distances.png" width="550" height="270" />
+  <img src="(https://github.com/hosseinAT/PedestrianCommunication/blob/main/Pedestrian_Distances.png"  />
    - **Pedestrian_Positions**
-  <img src="https://github.com/hosseinAT/PedestrianCommunication/blob/main/Pedestrian_Positions.png" width="550" height="270" />
+  <img src="https://github.com/hosseinAT/PedestrianCommunication/blob/main/Pedestrian_Positions.png" />
 
 
 
