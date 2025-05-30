@@ -205,6 +205,7 @@ display:
    - **Camera-Fenster**: Zeigt Kameraaufnahmen mit grünen Rahmen um Fußgänger und deren Entfernung (z. B. "Distance: 1.5m").
    - **Eyes-Fenster**: Animation von Augen, die sich zum nächstgelegenen Fußgänger bewegen und grün (Erkennung) oder rot (keine Erkennung) anzeigen.
    - Drücken Sie die Taste `q`, um das Programm zu beenden.
+     
    - **Depth_Map**
   <img src="https://github.com/hosseinAT/PedestrianCommunication/blob/main/src/Depth_Map.png" width="550" height="270" />
    - **Detection_Status**
@@ -213,19 +214,6 @@ display:
   <img src="(https://github.com/hosseinAT/PedestrianCommunication/blob/main/Pedestrian_Distances.png" width="550" height="270" />
    - **Pedestrian_Positions**
   <img src="https://github.com/hosseinAT/PedestrianCommunication/blob/main/Pedestrian_Positions.png" width="550" height="270" />
-
-
-  - **Depth_Map**
-  ![Depth Map](https://github.com/hosseinAT/PedestrianCommunication/blob/main/src/Depth_Map.png)
-  
-- **Detection_Status**
-  ![Detection Status](https://github.com/hosseinAT/PedestrianCommunication/blob/main/Detection_Status.png)
-  
-- **Pedestrian_Distances**
-  ![Pedestrian Distances](https://github.com/hosseinAT/PedestrianCommunication/blob/main/Pedestrian_Distances.png)
-  
-- **Pedestrian_Positions**
-  ![Pedestrian Positions](https://github.com/hosseinAT/PedestrianCommunication/blob/main/Pedestrian_Positions.png)
 
 
 
