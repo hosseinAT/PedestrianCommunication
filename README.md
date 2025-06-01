@@ -219,6 +219,7 @@ display:
 
 
 ## Konfiguration
+![Image](https://github.com/user-attachments/assets/d3e0ca12-f479-4c84-94ce-a6d72c334cce)
 
 Bearbeiten Sie die Datei `settings.yaml` in `src/config`, um folgende Parameter anzupassen:
 
