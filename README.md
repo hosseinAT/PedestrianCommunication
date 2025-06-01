@@ -202,22 +202,20 @@ display:
 
 3. **Ausgabe**:
 
-   - **Camera-Fenster**: Zeigt Kameraaufnahmen mit grünen Rahmen um Fußgänger und deren Entfernung (z. B. "Distance: 1.5m").
-   - **Eyes-Fenster**: Animation von Augen, die sich zum nächstgelegenen Fußgänger bewegen und grün (Erkennung) oder rot (keine Erkennung) anzeigen.
-   - Drücken Sie die Taste `q`, um das Programm zu beenden.
+ - **Camera-Fenster**: Zeigt Kameraaufnahmen mit grünen Rahmen um Fußgänger und deren Entfernung (z. B. "Distance: 1.5m").
+ - **Eyes-Fenster**: Animation von Augen, die sich zum nächstgelegenen Fußgänger bewegen und grün (Erkennung) oder rot (keine Erkennung) anzeigen.
 
-   - **Depth_Map**  
-     <img src="https://github.com/hosseinAT/PedestrianCommunication/blob/main/src/Depth_Map.png" />
+ - **Depth_Map**: Zeigt eine Farbcodierte Darstellung der Entfernung von Objekten, mit einem roten Rahmen um erkannte Fußgänger, wobei die Farben die Tiefe (z. B. gelb für nah, blau für weit) anzeigen.  
+  ![Alt-Depth_Map](https://github.com/hosseinAT/PedestrianCommunication/blob/main/src/Depth_Map.png)
 
-   - **Detection_Status**  
-     <img src="https://github.com/hosseinAT/PedestrianCommunication/blob/main/Detection_Status.png" />
+ - **Detection_Status**: Präsentiert den Live-Feed der Kamera mit grünen Rahmen um erkannte Fußgänger und deren Entfernung (z. B. "Distance: 1.5m").  
+  ![Alt-Detection_Status](https://github.com/hosseinAT/PedestrianCommunication/blob/main/Detection_Status.png)
 
-   - **Pedestrian_Distances**  
-     <img src="https://github.com/hosseinAT/PedestrianCommunication/blob/main/Pedestrian_Distances.png" />
+ - **Pedestrian_Distances**: Zeigt eine Balkendarstellung der Entfernung jedes erkannten Fußgängers (z. B. 2 Meter für Fußgänger mit ID 1) basierend auf ihrer Identifikationsnummer.  
+  ![Alt-Pedestrian_Distances](https://github.com/hosseinAT/PedestrianCommunication/blob/main/Pedestrian_Distances.png)
 
-   - **Pedestrian_Positions**  
-     <img src="https://github.com/hosseinAT/PedestrianCommunication/blob/main/Pedestrian_Positions.png" />
-
+ - **Pedestrian_Positions**: Visualisiert die X- und Y-Positionen der erkannten Fußgänger in Pixeln auf einem Koordinatensystem, markiert durch Punkte.  
+  ![Alt-Pedestrian_Positions](https://github.com/hosseinAT/PedestrianCommunication/blob/main/Pedestrian_Positions.png)
 
 
 ## Konfiguration
