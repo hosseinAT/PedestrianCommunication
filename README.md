@@ -149,7 +149,7 @@ python src/main.py
 
 * **Kamerafenster**: Zeigt Live-Feed mit erkannten Fußgängern (Bounding Boxes)
 * **Augenfenster**: Animierte Augen werden grün bei Fußgängererkennung und richten sich auf den nächsten
-* Ohne Fußgänger: Augen leuchten rot
+* Ohne Fußgänger: Augen Pupille wird rot
 * Mit `q` kann das Programm beendet werden
 
 ### Logs
@@ -217,10 +217,10 @@ display:
  - **Pedestrian_Positions**: Visualisiert die X- und Y-Positionen der erkannten Fußgänger in Pixeln auf einem Koordinatensystem, markiert durch Punkte.  
   ![Alt-Pedestrian_Positions](https://github.com/hosseinAT/PedestrianCommunication/blob/main/Pedestrian_Positions.png)
 
+### Sehen Sie sich den Test im Video unten an:
+![video-ezgif com](https://github.com/user-attachments/assets/34f065e9-3d26-4439-a27c-1360381dd975)
 
 ## Konfiguration
-![Image](https://github.com/user-attachments/assets/d3e0ca12-f479-4c84-94ce-a6d72c334cce)
-
 Bearbeiten Sie die Datei `settings.yaml` in `src/config`, um folgende Parameter anzupassen:
 
 - `camera.resolution`: Kameraauflösung (z. B. `[1280, 720]`)
